@@ -6,7 +6,7 @@ SERVER_RELOAD = True
 SERVER_TIMEZONE = 'Etc/UTC'
 
 
-
+# postgreSQL
 NAME='test'
 USER='postgres'
 PASSWORD='root'

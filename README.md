@@ -21,5 +21,8 @@ A simple python function accepts an Author return all Books of that author using
     
 ### make new migartion for changes in schema
     python manage.py db migrate
+
+### for run the local server 
+    python manage.py runserver
     
 

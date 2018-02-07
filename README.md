@@ -10,19 +10,19 @@ A simple python function accepts an Author return all Books of that author using
 #### create virtual environment
     virtualenv -p python3 venv
     
-### activate virtual environment 
+#### activate virtual environment 
     source venv/bin/activate
     
-### install requirements
+#### install requirements
     pip3 install -r requirements/default.txt
     
-### upgrade migration
+#### upgrade migration
     python manage.py db upgrade
     
-### make new migartion for changes in schema
+#### make new migartion for changes in schema
     python manage.py db migrate
 
-### for run the local server 
+#### for run the local server 
     python manage.py runserver
     
 

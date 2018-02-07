@@ -2,8 +2,6 @@
 __author__ = 'aditya_sharma'
 """base class for every model class"""
 from books import db
-from sqlalchemy.sql import func
-from sqlalchemy.orm import load_only
 
 
 class Base(db.Model):

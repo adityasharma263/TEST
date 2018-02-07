@@ -16,4 +16,4 @@ ma = Marshmallow(app)
 app.config.from_pyfile('../config.cfg')
 # print(app.config['BROKER_URL'])
 
-import books.models
+import books.view.get_books_api
